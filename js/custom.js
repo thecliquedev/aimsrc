@@ -183,12 +183,14 @@ function testiCarosule() {
           items: 2,
         },
       },
+      animateOut: 'fadeOut', // Set the animation effect for item removal
+      animateIn: 'fadeIn',
     });
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
-      smartSpeed: 1000,
+      smartSpeed: 5000,
       autoplay: true,
-      autoplayTimeout: 2000,
+      autoplayTimeout: 5000,
       center: true,
       dots: false,
       loop: true,
@@ -204,10 +206,12 @@ function testiCarosule() {
         768: {
           items: 1,
         },
-        992: {
+        990: {
           items: 3,
         },
       },
+      animateOut: 'fadeOut', // Set the animation effect for item removal
+      animateIn: 'fadeIn',
     });
   }
 }

@@ -782,7 +782,7 @@ img {
 
 .insurance-container {
   padding: 0;
-  padding-left: 25px;
+  padding-left: 0px;
 }
 
 .single-offer {
@@ -805,7 +805,7 @@ img {
   z-index: 20;
   top: 0;
   top: 20%;
-  left: 560px;
+  left: 580px;
   background-color: #fff;
   border-radius: 50%;
 }
@@ -816,7 +816,7 @@ img {
   margin: 0 auto;
   margin-bottom: 35px;
   top: 12%;
-  left: -25px;
+  left: -2px;
   font-weight: 700;
   padding: 20px 180px 20px 100px;
   border-radius: 0px 40px 40px 0px;
@@ -827,9 +827,10 @@ img {
 .single-offer h3::before {
   content: "";
   position: absolute;
-  background: url(../img/hospital/hospital_images/4Asset\ 3.png);
-  width: 30px;
-  height: 30px;
+  background: url(../img/hospital/hospital_images/white_cross.png);
+  top: 35%;
+  width: 20px;
+  height: 20px;
   left: 30px;
   background-size: contain;
 }
@@ -3542,6 +3543,18 @@ img {
   border-radius: 0px 20% 20% 0px;
 }
 
+.hospital-education-img::before{
+  content: "";
+  position: absolute;
+  background: url(../img/hospital/hospital_images/0Asset\ 5.png);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  z-index: 200;
+  left: 10vw;
+  top: 3vw;
+}
+
 .edu-img2 {
   display: none;
 }
@@ -3685,6 +3698,7 @@ img {
   background-color: #312780;
   background: url(../img/hospital/hospital_images/6Asset\ 3.png) no-repeat;
   width: 90%;
+  border-radius: 30px 40px 40px 0px;
   padding-bottom: 100px;
   background-size: contain;
   background-size: cover;
@@ -3862,6 +3876,7 @@ img {
   opacity: 0.5;
   margin-bottom: 100px;
   margin: 50px auto;
+  transform: scale(0.75);
 }
 
 .hospital-bulletin-row .owl-item.active.center .hospital-bulletin-content {
@@ -3869,10 +3884,9 @@ img {
 }
 
 .hospital-bulletin-row .owl-item.active {
-  transform: scale(0.75);
 }
 .hospital-bulletin-row .owl-item.active.center {
-  transform: scale(1);
+  transform: scale(1.25) !important;  
 }
 
 .hospital-bulletin-content img {
