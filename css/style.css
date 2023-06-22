@@ -3761,6 +3761,7 @@ img {
   width: 100%;
   display: flex;
   padding-left: 200px;
+  padding-left: 8vw;
 }
 
 .fac-text-divsion {
@@ -3804,7 +3805,7 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1100px) {
   .hospital-fac-sec {
     width: 100%;
     background-position-y: center;
