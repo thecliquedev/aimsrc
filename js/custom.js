@@ -57,6 +57,7 @@ function revolutionSliderActiver() {
       delay: 5000,
       navigation: {
         arrows: { enable: true },
+        bullets: { enable: true, style: 'custom', size: 12, hide_onmobile: false, hide_onleave: false, direction: 'horizontal', v_align: 'bottom', h_offset: 0, v_offset: 20, space: 10, tmp: '' }
       },
       gridwidth: 1170,
       gridheight: 770,
@@ -69,6 +70,7 @@ function revolutionSliderActiver() {
       delay: 5000,
       navigation: {
         arrows: { enable: true },
+        bullets: { enable: true, style: 'custom', size: 12, hide_onmobile: false, hide_onleave: false, direction: 'horizontal', h_align: 'center', v_align: 'bottom', h_offset: 0, v_offset: 20, space: 10, tmp: '' }
       },
       gridwidth: 600,
       gridheight: 700,
